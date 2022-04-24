@@ -1,0 +1,33 @@
+{
+  "name": "kmvan/response",
+  "description": "Http response.",
+  "type": "library",
+  "version": "0.0.1",
+  "keywords": [
+    "http",
+    "response",
+    "restful"
+  ],
+  "readme": "readme.md",
+  "require": {
+    "php": ">=8.1.0"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Kmvan\\Response\\": "src/"
+    }
+  },
+  "suggest": {
+    "kmvan/status-code": "HTTP Status code"
+  },
+  "authors": [
+    {
+      "name": "Km.Van",
+      "email": "kmvan.com@gmail.com",
+      "homepage": "https://inn-studio.com",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "stable"
+}
